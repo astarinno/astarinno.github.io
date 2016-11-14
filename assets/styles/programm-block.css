@@ -1,0 +1,42 @@
+.programm-block {
+  color: $black;
+  font-family: "Helvetica Bold";
+}
+.programm-block__wrapper {
+  position: relative;
+  left: 50%;
+  width: 1140px;
+  transform: translateX(-50%);
+  background: #fff;
+}
+.programm-block__photos {
+  height: 690px;
+  width: 535px;
+  float: left;
+}
+.programm-block__content {
+  width: 600px;
+  padding-left: 30px;
+  float: left;
+}
+.programm-block__content__date {
+  font-size: 36px;
+  line-height: 49px;
+}
+.programm-block__content__part {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+  border-bottom: 10px solid $black;
+}
+.programm-block__content__header {
+  margin-top: 25px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.programm-block__content__descr {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Helvetica;
+}

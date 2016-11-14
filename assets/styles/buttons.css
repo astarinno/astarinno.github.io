@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  background: $orange-yellow;
+  color: $white;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Helvetica Bold";
+}
+.button--join {
+  padding-left: 43px;
+  padding-right: 43px;
+}

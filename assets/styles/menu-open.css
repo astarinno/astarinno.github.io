@@ -1,0 +1,23 @@
+.menu-open {
+  display: inline-block;
+  cursor: pointer;
+}
+.menu-open__hamburger {
+  float: left;
+  width: 30px;
+}
+.menu-open__hamburger__bar {
+  display: block;
+  margin-bottom: 4px;
+  height: 5px;
+  background: $black;
+}
+.menu-open__label {
+  float: left;
+  margin-left: 10px;
+  color: $black;
+  font-size: 18px;
+  font-family: "Helvetica Bold";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

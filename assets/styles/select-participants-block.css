@@ -1,0 +1,58 @@
+.select-participants-block {
+  padding-top: 130px;
+  background: none;
+}
+.select-participants-block__header {
+  color: $black;
+  font-size: 64px;
+  line-height: 86px;
+  font-family: "Helvetica Bold";
+}
+.select-participants-block__descr {
+  margin-top: 20px;
+  width: 638px;
+  color: $greyish-brown;
+  font-size: 18px;
+  line-height: 27px;
+}
+.select-participants-block__steps {
+  margin-top: 5px;
+  width: 418px;
+}
+.select-participants-block__step {
+  position: relative;
+  margin-top: 30px;
+}
+.select-participants-block__step__counter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: $black;
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+  font-family: "Helvetica Bold";
+}
+.select-participants-block__step__text {
+  float: left;
+  width: 338px;
+  margin-left: 80px;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 27px;
+  color: $greyish-brown;
+}
+.select-participants-block__header,
+.select-participants-block__descr {
+  text-align: center;
+}
+.select-participants-block__header,
+.select-participants-block__descr,
+.select-participants-block__steps {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

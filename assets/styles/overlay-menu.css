@@ -1,0 +1,38 @@
+.overlay-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255,255,255,0.9);
+  overflow-x: hidden;
+  z-index: 1050;
+}
+.overlay-menu__closebtn {
+  position: relative;
+  left: 50%;
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  background: rgba(3,3,3,0.9);
+  transform: translateX(-50%);
+}
+.overlay-menu__content {
+  position: relative;
+  left: 50%;
+  margin-top: 10px;
+  width: 150px;
+  transform: translateX(-50%);
+}
+.overlay-menu__content__link {
+  display: block;
+  margin-top: 30px;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  font-family: "Helvetica Bold";
+}
+.overlay-menu__content__link:hover {
+  color: $orange-yellow;
+  text-decoration: none;
+}
